@@ -51,4 +51,6 @@ app.use(express.errorHandler({ logger }))
 
 app.hooks(appHooks)
 
+console.log(app)
+
 module.exports = app
